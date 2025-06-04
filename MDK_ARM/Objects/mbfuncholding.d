@@ -1,0 +1,44 @@
+.\objects\mbfuncholding.o: ..\Driver\FreeModbus\functions\mbfuncholding.c
+.\objects\mbfuncholding.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mbfuncholding.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mbfuncholding.o: ..\Driver\FreeModbus\port\port.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\CMSIS\stm32f4xx.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\CMSIS\core_cm4.h
+.\objects\mbfuncholding.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\CMSIS\core_cmInstr.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\CMSIS\core_cmFunc.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\CMSIS\core_cmSimd.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\CMSIS\system_stm32f4xx.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\CMSIS\stm32f4xx_conf.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\CMSIS\stm32f4xx.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
+.\objects\mbfuncholding.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
+.\objects\mbfuncholding.o: ..\Driver\FreeModbus\include\mb.h
+.\objects\mbfuncholding.o: ..\Driver\FreeModbus\include\mbport.h
+.\objects\mbfuncholding.o: ..\Driver\FreeModbus\include\mbproto.h
+.\objects\mbfuncholding.o: ..\Driver\FreeModbus\include\mbframe.h
+.\objects\mbfuncholding.o: ..\Driver\FreeModbus\include\mbconfig.h

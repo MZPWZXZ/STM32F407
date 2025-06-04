@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "timer.h": "c",
+        "led.h": "c",
+        "main.h": "c",
+        "systick.h": "c",
+        "eth.h": "c",
+        "phy.h": "c",
+        "stm32f4xx.h": "c",
+        "stm32f4x7_eth.h": "c",
+        "ethernetif.h": "c",
+        "malloc.h": "c"
+    }
+}

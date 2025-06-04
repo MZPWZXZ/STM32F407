@@ -1,0 +1,46 @@
+.\objects\mb.o: ..\Driver\FreeModbus\mb.c
+.\objects\mb.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mb.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mb.o: ..\Driver\FreeModbus\port\port.h
+.\objects\mb.o: ..\Driver\Libraries\CMSIS\stm32f4xx.h
+.\objects\mb.o: ..\Driver\Libraries\CMSIS\core_cm4.h
+.\objects\mb.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mb.o: ..\Driver\Libraries\CMSIS\core_cmInstr.h
+.\objects\mb.o: ..\Driver\Libraries\CMSIS\core_cmFunc.h
+.\objects\mb.o: ..\Driver\Libraries\CMSIS\core_cmSimd.h
+.\objects\mb.o: ..\Driver\Libraries\CMSIS\system_stm32f4xx.h
+.\objects\mb.o: ..\Driver\Libraries\CMSIS\stm32f4xx_conf.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
+.\objects\mb.o: ..\Driver\Libraries\CMSIS\stm32f4xx.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
+.\objects\mb.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
+.\objects\mb.o: ..\Driver\FreeModbus\include\mb.h
+.\objects\mb.o: ..\Driver\FreeModbus\include\mbport.h
+.\objects\mb.o: ..\Driver\FreeModbus\include\mbproto.h
+.\objects\mb.o: ..\Driver\FreeModbus\include\mbconfig.h
+.\objects\mb.o: ..\Driver\FreeModbus\include\mbframe.h
+.\objects\mb.o: ..\Driver\FreeModbus\include\mbfunc.h
+.\objects\mb.o: ..\Driver\FreeModbus\rtu\mbrtu.h

@@ -1,0 +1,80 @@
+.\objects\lwip_comm.o: ..\Driver\Lwip\app\lwip_comm.c
+.\objects\lwip_comm.o: ..\Driver\Lwip\app\lwip_comm.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\CMSIS\stm32f4xx.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\CMSIS\core_cm4.h
+.\objects\lwip_comm.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\CMSIS\core_cmInstr.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\CMSIS\core_cmFunc.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\CMSIS\core_cmSimd.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\CMSIS\system_stm32f4xx.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\CMSIS\stm32f4xx_conf.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\CMSIS\stm32f4xx.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
+.\objects\lwip_comm.o: ..\Driver\Hardware\phy.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4x7_ETH_Driver\inc\stm32f4x7_eth.h
+.\objects\lwip_comm.o: ..\Driver\Libraries\STM32F4x7_ETH_Driver\inc\stm32f4x7_eth_conf.h
+.\objects\lwip_comm.o: ..\Driver\Peripherals\eth.h
+.\objects\lwip_comm.o: ..\Driver\Malloc\malloc.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\netif/etharp.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/etharp.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/opt.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\arch\lwipopts.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/debug.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/arch.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\arch/cc.h
+.\objects\lwip_comm.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\lwip_comm.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\lwip_comm.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lwip_comm.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\lwip_comm.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\lwip_comm.o: D:\Keil MDK5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/opt.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/pbuf.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/err.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/ip4_addr.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/def.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/netif.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/ip_addr.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/ip6_addr.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/stats.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/mem.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/memp.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/priv/memp_std.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/priv/memp_std.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/priv/memp_priv.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/priv/mem_priv.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/stats.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/ip4.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/prot/ip4.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/prot/ethernet.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/prot/ieee.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/prot/etharp.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\netif/ethernet.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/init.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\app\ethernetif.h
+.\objects\lwip_comm.o: ..\Driver\Lwip\src\include\lwip/dhcp.h
