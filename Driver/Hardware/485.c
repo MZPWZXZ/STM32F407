@@ -4,10 +4,6 @@
 
 
 
-uint16_t g_recv_len = 0;
-uint8_t g_recv_485_buf[RS485_RECV_MAX] = {0};
-
-
 void rs485_config(uint32_t baud)
 {
     GPIO_InitTypeDef    GPIO_InitStructure;
@@ -48,7 +44,6 @@ void rs485_config(uint32_t baud)
 	USART_Cmd(USART2, ENABLE);
     
     rs485_send_byte(0xFF);
-    memset(g_recv_485_buf, 0, sizeof(g_recv_485_buf));
 }
 
 

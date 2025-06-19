@@ -14,7 +14,7 @@ void my_led_config()
     gpio.GPIO_Speed = GPIO_High_Speed;
     GPIO_Init(GPIOE, &gpio);
 
-    GPIO_SetBits(GPIOE, GPIO_Pin_13);//默认关闭
+    LED1_OFF();//默认关闭
 }
 
 void my_led_toggle()

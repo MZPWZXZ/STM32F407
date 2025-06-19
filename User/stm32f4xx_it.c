@@ -148,30 +148,17 @@ void DebugMon_Handler(void)
 /*  available peripheral interrupt handler's name please refer to the startup */
 /*  file (startup_stm32f4xx.s).                                               */
 /******************************************************************************/
-uint32_t g_time_count = 0;
+extern uint32_t g_lwip_localtime;
 void TIM1_UP_TIM10_IRQHandler()
 {
     if(TIM_GetITStatus(TIM1, TIM_IT_Update) == SET)
     {
-        TIM_ClearITPendingBit(TIM1, TIM_IT_Update);
         delay_update();
+        g_lwip_localtime += 1; 
+        TIM_ClearITPendingBit(TIM1, TIM_IT_Update);
     }
 }
 
-extern uint32_t g_lwip_localtime;
-/**
-  * @brief  
-  * @param  None
-  * @retval None
-  */
-void TIM6_DAC_IRQHandler()
-{
-    if(TIM_GetITStatus(TIM6, TIM_IT_Update) == SET)
-    {
-        g_lwip_localtime += 10; 
-        TIM_ClearITPendingBit(TIM6, TIM_IT_Update);
-    }
-}
 
 
 /**

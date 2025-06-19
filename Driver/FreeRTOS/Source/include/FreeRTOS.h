@@ -953,12 +953,12 @@
 
 #ifndef configSUPPORT_STATIC_ALLOCATION
     /* Defaults to 0 for backward compatibility. */
-    #define configSUPPORT_STATIC_ALLOCATION    0
+    #define configSUPPORT_STATIC_ALLOCATION    0   /* 支持静态创建任务 */
 #endif
 
 #ifndef configSUPPORT_DYNAMIC_ALLOCATION
     /* Defaults to 1 for backward compatibility. */
-    #define configSUPPORT_DYNAMIC_ALLOCATION    1
+    #define configSUPPORT_DYNAMIC_ALLOCATION    1   /* 支持动态任务创建 */
 #endif
 
 #if ( ( configUSE_STATS_FORMATTING_FUNCTIONS > 0 ) && ( configSUPPORT_DYNAMIC_ALLOCATION != 1 ) )
