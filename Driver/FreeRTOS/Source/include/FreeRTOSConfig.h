@@ -43,12 +43,18 @@ extern "C" {
  *
  * See http://www.freertos.org/a00110.html
  *----------------------------------------------------------*/
+#if defined(__ICCARM__) || defined(__CC_ARM) || defined(__GNUC__)
+    #include <stdint.h>
+    extern uint32_t SystemCoreClock;
+#endif
 
+//#define vAssertCalled(char,int) printf("Error:%s,%d\r\n",char,int)
+//#define configASSERT(x) if((x)==0) vAssertCalled(__FILE__,__LINE__)
 
 /* Set configCREATE_LOW_POWER_DEMO to one to run the simple blinky demo low power
 example, or 1 to run the more comprehensive test and demo application.  See
 the comments at the top of main.c for more information. */
-#define configCREATE_LOW_POWER_DEMO	1
+#define configCREATE_LOW_POWER_DEMO	0
 
 /* Some configuration is dependent on the demo being built. */
 #if( configCREATE_LOW_POWER_DEMO == 1 )
@@ -84,7 +90,7 @@ the comments at the top of main.c for more information. */
 #define configUSE_QUEUE_SETS					1
 #define configUSE_IDLE_HOOK						0
 #define configUSE_TICK_HOOK						0
-#define configCPU_CLOCK_HZ						48000000
+#define configCPU_CLOCK_HZ						SystemCoreClock
 #define configMAX_PRIORITIES					( 5 )
 #define configMINIMAL_STACK_SIZE				( ( unsigned short ) 120 )
 #define configTOTAL_HEAP_SIZE					( ( size_t ) ( 26 * 1024 ) )
@@ -141,7 +147,7 @@ to exclude the API function. */
 
 /* The lowest interrupt priority that can be used in a call to a "set priority"
 function. */
-#define configLIBRARY_LOWEST_INTERRUPT_PRIORITY			0x7
+#define configLIBRARY_LOWEST_INTERRUPT_PRIORITY			15
 
 /* The highest interrupt priority that can be used by any interrupt service
 routine that makes calls to interrupt safe FreeRTOS API functions.  DO NOT CALL
@@ -165,7 +171,7 @@ standard names. */
 
 /* Normal assert() semantics without relying on the provision of an assert.h
 header file. */
-#define configASSERT( x ) if( ( x ) == 0UL ) { taskDISABLE_INTERRUPTS(); for( ;; ); }
+
 
 /* LED not used at present, so just increment a variable to keep a count of the
 number of times the LED would otherwise have been toggled. */
