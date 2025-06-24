@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F40_41xxx</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Driver;..\Driver\Start;..\Driver\Libraries\CMSIS;..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc;..\User;..\Driver\Hardware;..\Driver\Peripherals;..\Driver\Lwip\src\include;..\Driver\Lwip\app;..\Driver\Lwip\arch;..\Driver\Lwip;..\Driver\Malloc;..\Driver\Libraries\STM32F4x7_ETH_Driver\inc;..\Driver\FreeRTOS\Source\include;..\Driver\FreeRTOS\Source\portable\MemMang;..\Driver\FreeRTOS\Source\portable\RVDS\ARM_CM4F;..\Driver\FreeModbus;..\Driver\FreeModbus\include;..\Driver\FreeModbus\rtu;..\Driver\FreeModbus\port</IncludePath>
+              <IncludePath>..\Driver;..\Driver\Start;..\Driver\Libraries\CMSIS;..\Driver\Libraries\STM32F4xx_StdPeriph_Driver\inc;..\User;..\Driver\Hardware;..\Driver\Peripherals;..\Driver\Lwip\src\include;..\Driver\Lwip\app;..\Driver\Lwip\arch;..\Driver\Lwip;..\Driver\System;..\Driver\Libraries\STM32F4x7_ETH_Driver\inc;..\Driver\FreeRTOS\Source\include;..\Driver\FreeRTOS\Source\portable\MemMang;..\Driver\FreeRTOS\Source\portable\RVDS\ARM_CM4F;..\Driver\FreeModbus;..\Driver\FreeModbus\include;..\Driver\FreeModbus\rtu;..\Driver\FreeModbus\port</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -398,12 +398,17 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Malloc</GroupName>
+          <GroupName>System</GroupName>
           <Files>
             <File>
               <FileName>malloc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Driver\Malloc\malloc.c</FilePath>
+              <FilePath>..\Driver\System\malloc.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Driver\System\delay.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -454,11 +459,6 @@
               <FileName>eth.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Driver\Peripherals\eth.c</FilePath>
-            </File>
-            <File>
-              <FileName>systick.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Driver\Peripherals\systick.c</FilePath>
             </File>
             <File>
               <FileName>timer.c</FileName>

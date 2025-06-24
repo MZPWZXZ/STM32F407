@@ -153,7 +153,6 @@ void TIM1_UP_TIM10_IRQHandler()
 {
     if(TIM_GetITStatus(TIM1, TIM_IT_Update) == SET)
     {
-        delay_update();
         g_lwip_localtime += 1; 
         TIM_ClearITPendingBit(TIM1, TIM_IT_Update);
     }

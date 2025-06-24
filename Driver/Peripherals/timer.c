@@ -1,6 +1,7 @@
 #include "timer.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
-static __IO uint32_t g_delay_time = 0;
 
 
 void delay_timer_config(uint32_t psc, uint32_t arr)
@@ -30,32 +31,6 @@ void delay_timer_config(uint32_t psc, uint32_t arr)
     TIM_Cmd(TIM1, ENABLE);
 }
 
-/**
-  * @brief  延时计时，每ms自减1
-  * @param  None
-  * @retval None
-  */
-void delay_update()
-{
-    if(g_delay_time)
-    {
-        g_delay_time--;
-    }
-}
-
-/**
-  * @brief  毫秒级延时
-  * @param  None
-  * @retval None
-  */
-void delay_ms(uint32_t ms)
-{
-    g_delay_time = ms;
-    while(g_delay_time)
-    {
-    
-    }
-}
 
 
 void modbus_timer_config(uint32_t psc, uint32_t arr)
@@ -102,3 +77,6 @@ void ethernet_timer_config(uint32_t psc, uint32_t arr)
     nvic.NVIC_IRQChannelSubPriority = 0;
     NVIC_Init(&nvic);
 }
+
+
+
