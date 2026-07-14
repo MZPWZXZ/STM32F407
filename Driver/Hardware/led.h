@@ -3,7 +3,7 @@
 
 
 #include "stm32f4xx_gpio.h"
-
+#include "stm32f4xx_rcc.h"
 
 #define     LED1_ON()       do{ GPIO_ResetBits(GPIOE, GPIO_Pin_13); }while(0)
 #define     LED1_OFF()      do{ GPIO_SetBits(GPIOE, GPIO_Pin_13); }while(0)
